@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "corestore": "node corestore.js",
-    "replSwarm": "node swarm.js"
+    "client": "node client.js",
+    "server": "node server.js"
   },
   "keywords": [],
   "author": "",
