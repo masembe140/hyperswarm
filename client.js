@@ -19,7 +19,7 @@ console.log(node.key.toString('hex'))
 await swarm.flush()
 await node.update()
 
-let message
+let message= ''
 let i = 0
 while(i<node.length){
   message += await node.get(i)
