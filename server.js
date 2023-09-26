@@ -13,5 +13,5 @@ swarm.on('connection',(connection)=>{
 
 swarm.join(node.discoveryKey)
 console.log(node.key.toString('hex'))
-
-await node.append(Buffer.from('hello world'))
+const message = prompt('enter something')
+await node.append(Buffer.from(message))
